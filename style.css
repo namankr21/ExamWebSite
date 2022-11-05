@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: white;
+}
+
+.navClass {
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(36, 13, 13);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+nav div h2 {
+  display: inline-block;
+}
+nav,
+header {
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  display: flex;
+  gap: 340px;
+}
+.navAbout {
+  /* padding-top: 40px; */
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: #29d9d5;
+}
+.BookButton {
+  background-color: none;
+  color: #29d9d5;
+  font-size: large;
+  border: 0px solid #29d9d5;
+  border-radius: 2%;
+}
+/*######## SECTION CLASS START HERE#######*/
+.sectionClass {
+  width: 1200px;
+  border: 0 solid rgb(152, 132, 135);
+  background-color: rgb(152, 132, 135);
+
+  border-radius: 10px 10px 10px 10px;
+  padding-left: 25px;
+  margin: auto;
+  min-height: 60px;
+}
+/*########## IMAGE SECTION START ########*/
+img {
+  height: 200px;
+  width: 350px;
+  border: 0 solid rgb(152, 132, 135);
+  border-radius: 10px 10px 10px 10px;
+}
+.image-article {
+  /* width: 1200px; */
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 10px 10px;
+
+  flex-wrap: wrap;
+}
+/*############ CAPTION CLASS START ############3*/
+caption {
+  background-image: url(nature.jpg);
+  display: flex;
+  border: 5px solid black;
+  justify-content: center;
+  align-items: center;
+}
+/* .captionclass {
+  
+} */
+/*###### footer start ##########*/
+footer {
+  background-color: black;
+  display: flex;
+  gap: 250px;
+}
+.footer2 {
+  margin-top: 10px;
+}
